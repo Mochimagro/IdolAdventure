@@ -1,37 +1,64 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using Fungus;
+using UnityEngine;
 
 public class NPCharacterContoller : MonoBehaviour {
 
-	private Animator animator;
-	[SerializeField]private Flowchart flowchart;
+    [System.Serializable]
+    public enum DefaultPause {
+        Idle,
+        Dance,
+        Talk,
 
-	void Start () {
-		animator = GetComponent<Animator>();
-		animator.speed = 1.5f;
-		animator.SetBool("Dance",true);
-	}
-	
-	void Update () {
-		
-	}
+    }
 
-	public void TalkStart(){
-		Debug.Log("TALK");
-		flowchart.ExecuteBlock("New Block");
-		DanceStop();
-	}
+    [SerializeField] private Animator animator;
+    [SerializeField] private Flowchart flowchart;
+    [SerializeField] private string talkTitle;
+    [SerializeField] private DefaultPause defaultPause;
 
-	public void TalkEnd(){
-		DanceStart();
-	}
+    void Start () {
+        animator.speed = 1.5f;
+        SetDefaultPause ();
+    }
 
-	public void DanceStop(){
-		animator.SetBool("Dance",false);
-	}
-	public void DanceStart(){
-		animator.SetBool("Dance",true);
-	}
+    void Update () {
+
+    }
+
+    private void SetDefaultPause () {
+        switch (defaultPause) {
+            case DefaultPause.Idle:
+                return;
+
+            case DefaultPause.Talk:
+                animator.SetBool ("Talk", true);
+                return;
+
+            case DefaultPause.Dance:
+                animator.SetBool ("Dance", true);
+                return;
+        }
+    }
+
+    public void TalkStart () {
+        Debug.Log ("TALK");
+        flowchart.ExecuteBlock (talkTitle);
+        animator.SetBool ("Talk", true);
+        DanceStop ();
+    }
+
+    public void TalkEnd () {
+        animator.SetBool ("Talk", false);
+        DanceStart ();
+    }
+
+    public void DanceStop () {
+        animator.SetBool ("Dance", false);
+    }
+    public void DanceStart () {
+        animator.SetBool ("Dance", true);
+    }
+
 }

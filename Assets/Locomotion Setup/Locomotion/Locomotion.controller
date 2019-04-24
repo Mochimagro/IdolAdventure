@@ -4,7 +4,8 @@
 AnimatorController:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Locomotion
   serializedVersion: 5
   m_AnimatorParameters:
@@ -43,7 +44,8 @@ AnimatorController:
 BlendTree:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: WalkRun
   m_Childs:
   - serializedVersion: 2
@@ -73,7 +75,8 @@ BlendTree:
 BlendTree:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PlantNTunRight
   m_Childs:
   - serializedVersion: 2
@@ -111,7 +114,8 @@ BlendTree:
 BlendTree:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Walk
   m_Childs:
   - serializedVersion: 2
@@ -181,7 +185,8 @@ BlendTree:
 BlendTree:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Run
   m_Childs:
   - serializedVersion: 2
@@ -235,7 +240,8 @@ BlendTree:
 BlendTree:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PlantNTurnLeft
   m_Childs:
   - serializedVersion: 2
@@ -273,7 +279,8 @@ BlendTree:
 BlendTree:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: TurnOnSpot
   m_Childs:
   - serializedVersion: 2
@@ -359,7 +366,8 @@ BlendTree:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
@@ -389,7 +397,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
@@ -413,7 +422,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
@@ -437,7 +447,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
@@ -458,7 +469,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
@@ -482,7 +494,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
@@ -509,7 +522,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions: []
   m_DstStateMachine: {fileID: 0}
@@ -530,7 +544,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
@@ -557,7 +572,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 3
@@ -584,7 +600,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
@@ -611,7 +628,8 @@ AnimatorStateTransition:
 AnimatorStateTransition:
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: 
   m_Conditions:
   - m_ConditionMode: 4
@@ -636,7 +654,8 @@ AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Idle
   m_Speed: 1
   m_CycleOffset: 0
@@ -664,7 +683,8 @@ AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PlantNTurnLeft
   m_Speed: 1
   m_CycleOffset: 0
@@ -690,7 +710,8 @@ AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: WalkRun
   m_Speed: 1
   m_CycleOffset: 0
@@ -718,7 +739,8 @@ AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: TurnOnSpot
   m_Speed: 1
   m_CycleOffset: 0
@@ -746,7 +768,8 @@ AnimatorState:
   serializedVersion: 5
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: PlantNTurnRight
   m_Speed: 1
   m_CycleOffset: 0
@@ -772,7 +795,8 @@ AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Base Layer
   m_ChildStates: []
   m_ChildStateMachines:
@@ -793,7 +817,8 @@ AnimatorStateMachine:
   serializedVersion: 5
   m_ObjectHideFlags: 3
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Locomotion
   m_ChildStates:
   - serializedVersion: 1
