@@ -192,8 +192,7 @@ MonoBehaviour:
   animator: {fileID: 2040873846}
   flowchart: {fileID: 0}
   talkTitle: 
-  Dancing: 0
-  talking: 1
+  defaultPause: 2
 --- !u!136 &19365439
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -696,8 +695,7 @@ MonoBehaviour:
   animator: {fileID: 903499184}
   flowchart: {fileID: 0}
   talkTitle: 
-  Dancing: 0
-  talking: 0
+  defaultPause: 1
 --- !u!136 &120015227
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -7709,8 +7707,7 @@ MonoBehaviour:
   animator: {fileID: 1718784923}
   flowchart: {fileID: 0}
   talkTitle: 
-  Dancing: 0
-  talking: 1
+  defaultPause: 2
 --- !u!1 &1140646862
 GameObject:
   m_ObjectHideFlags: 0
@@ -9673,8 +9670,7 @@ MonoBehaviour:
   animator: {fileID: 1190721027}
   flowchart: {fileID: 0}
   talkTitle: 
-  Dancing: 0
-  talking: 0
+  defaultPause: 1
 --- !u!136 &1293192590
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -10298,8 +10294,7 @@ MonoBehaviour:
   animator: {fileID: 2113633368}
   flowchart: {fileID: 9162141898353402969}
   talkTitle: Uzuki01
-  Dancing: 0
-  talking: 0
+  defaultPause: 1
 --- !u!1 &1390355987
 GameObject:
   m_ObjectHideFlags: 0
@@ -10395,8 +10390,7 @@ MonoBehaviour:
   animator: {fileID: 1045062514}
   flowchart: {fileID: 4392909946314526338}
   talkTitle: Momoka01
-  Dancing: 0
-  talking: 0
+  defaultPause: 1
 --- !u!1 &1415967865
 GameObject:
   m_ObjectHideFlags: 0
@@ -13775,8 +13769,7 @@ MonoBehaviour:
   animator: {fileID: 939126366}
   flowchart: {fileID: 1264884458}
   talkTitle: Nina01
-  Dancing: 0
-  talking: 0
+  defaultPause: 1
 --- !u!136 &2053612791
 CapsuleCollider:
   m_ObjectHideFlags: 0
