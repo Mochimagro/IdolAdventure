@@ -14,9 +14,14 @@ public class NPCharacterContoller : MonoBehaviour {
     }
 
     [SerializeField] private Animator animator;
-    [SerializeField] private Flowchart flowchart;
-    [SerializeField] private string talkTitle;
+    [SerializeField] public Flowchart flowchart;
     [SerializeField] private DefaultPause defaultPause;
+
+    public virtual string NPC_Motion {
+        set {
+            animator.SetBool (value, true);
+        }
+    }
 
     void Start () {
         animator.speed = 1.5f;
@@ -44,21 +49,10 @@ public class NPCharacterContoller : MonoBehaviour {
 
     public void TalkStart () {
         Debug.Log ("TALK");
-        flowchart.ExecuteBlock (talkTitle);
         animator.SetBool ("Talk", true);
-        DanceStop ();
     }
 
     public void TalkEnd () {
         animator.SetBool ("Talk", false);
-        DanceStart ();
     }
-
-    public void DanceStop () {
-        animator.SetBool ("Dance", false);
-    }
-    public void DanceStart () {
-        animator.SetBool ("Dance", true);
-    }
-
 }

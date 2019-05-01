@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent (typeof (PlayerTalkManager))]
 public class PlayerController : MonoBehaviour {
 
     public float speed = 0.1f;
@@ -11,24 +10,29 @@ public class PlayerController : MonoBehaviour {
 
     private CharacterController characterController;
     [SerializeField] private Animator animator;
-    [SerializeField] private bool isTalk;
+
+    public bool isTalking = false;
+
+    public virtual bool MainPlayer_IsTalking {
+        set {
+            isTalking = value;
+        }
+        get {
+            return isTalking;
+        }
+    }
+
+    public virtual string MainPlayer_Motion {
+        set {
+            animator.SetBool (value, true);
+        }
+    }
 
     private void Start () {
         characterController = GetComponent<CharacterController> ();
-        isTalk = false;
     }
-
-    private void Update () {
-        /*
-		if(Input.GetKeyDown(KeyCode.Space)){
-			animator.SetBool("Dance",!animator.GetBool("Dance"));
-			//animator.SetTrigger("Dance");
-		}
-		*/
-    }
-
     void FixedUpdate () {
-        if (!isTalk) {
+        if (!isTalking) {
             var dh = Input.GetAxis ("Horizontal");
             var dv = Input.GetAxis ("Vertical");
 
@@ -46,19 +50,6 @@ public class PlayerController : MonoBehaviour {
 
             characterController.Move (targetVel * speed);
         }
-    }
-
-    private void OnTriggerStay (Collider other) {
-        if (Input.GetKeyDown (KeyCode.Space) && other.gameObject.CompareTag ("NPC")) {
-            if (!isTalk) {
-                other.GetComponent<NPCharacterContoller> ().TalkStart ();
-                isTalk = true;
-            }
-        }
-    }
-
-    public void TalkEnd () {
-        isTalk = false;
     }
 
 }
