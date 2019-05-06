@@ -13,7 +13,9 @@ public class NPCharacterContoller : MonoBehaviour {
 
     }
 
-    [SerializeField] private Animator animator;
+    public string characterName;
+    [SerializeField] private GameObject characterFBX;
+    private Animator animator;
     [SerializeField] public Flowchart flowchart;
     [SerializeField] private DefaultPause defaultPause;
 
@@ -24,6 +26,7 @@ public class NPCharacterContoller : MonoBehaviour {
     }
 
     void Start () {
+        animator = characterFBX.GetComponent<Animator> ();
         animator.speed = 1.5f;
         SetDefaultPause ();
     }

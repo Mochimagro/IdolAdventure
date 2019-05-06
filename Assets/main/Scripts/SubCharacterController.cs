@@ -5,19 +5,23 @@ using UnityEngine.AI;
 
 public class SubCharacterController : MonoBehaviour {
 
+	public string characterName;
+	[SerializeField] private GameObject characterFBX;
+
 	public Transform target;
 
 	private NavMeshAgent agent;
-	[SerializeField] private Animator animator;
+	private Animator animator;
 
 	void Start () {
+		animator = characterFBX.GetComponent<Animator> ();
 		agent = GetComponent<NavMeshAgent> ();
 
 		animator.speed = 1.5f;
 	}
 
 	void Update () {
-		animator.SetFloat ("Speed", agent.velocity.magnitude);
+		animator.SetFloat ("Speed", Mathf.Clamp01 (agent.velocity.magnitude));
 
 		agent.destination = target.position;
 

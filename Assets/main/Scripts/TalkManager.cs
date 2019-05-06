@@ -8,16 +8,16 @@ public class TalkManager : MonoBehaviour {
 
     private bool isTalking = false;
     [SerializeField] private string talkTitle;
-    [SerializeField] private List<NPCharacterContoller> targetCharacters = new List<NPCharacterContoller> ();
-    [SerializeField] private PlayerController playerController;
     [SerializeField] private Flowchart defaultChart;
+    private List<NPCharacterContoller> targetCharacters = new List<NPCharacterContoller> ();
+    private PlayerController playerController;
 
     private void Start () {
         playerController = GetComponent<PlayerController> ();
     }
 
     private void Update () {
-        if (Input.GetButtonDown ("Jump")) {
+        if (Input.GetButtonDown ("Fire1")) {
             TalkAction ();
         }
     }
