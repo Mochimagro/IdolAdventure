@@ -38,10 +38,15 @@ public class GameManager : MonoBehaviour {
 			targets.Add (item);
 		} */
 
-		cameraMultiTarget.SetTargets (targets.ToArray ());
+		SetCameraTargets(targets[0]);
 	}
 
 	public void TalkEnd () {
 		talkManager.TalkEnd ();
+	}
+
+	public void SetCameraTargets(GameObject target){
+		GameObject[] targets = {target};
+		cameraMultiTarget.SetTargets(targets);
 	}
 }

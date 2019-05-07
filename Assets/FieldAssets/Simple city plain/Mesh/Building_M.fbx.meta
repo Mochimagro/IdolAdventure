@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 33a58fa9897d81c4fa6655fc4a19a500
+guid: 5a7f9993e11e18b4ab4b9b31922f7da3
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -14,47 +14,47 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_01
-    second: {fileID: 2100000, guid: aa98591177d07b04380c01c77f1e13c5, type: 2}
+    second: {fileID: 2100000, guid: 5d9f33dc833fa8f40ac5183f4a2a726e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Door_02
-    second: {fileID: 2100000, guid: 28d9c7cc0ed297c42a0511d11c0351ce, type: 2}
+    second: {fileID: 2100000, guid: e6757655471bf954ba1c06ba71b274c5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Facade_01
-    second: {fileID: 2100000, guid: 27e250b7a99fb4d4283663e8009ba65f, type: 2}
+    second: {fileID: 2100000, guid: 755ac89b74517d3409f7cabdf9781421, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Facade_02
-    second: {fileID: 2100000, guid: 519c7b277a1b7ce49a46a94917e48757, type: 2}
+    second: {fileID: 2100000, guid: ebbb2ad0f987f9b439c55ccd17cd5aa7, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Roof
-    second: {fileID: 2100000, guid: d50304914753c934e9360da610e6423f, type: 2}
+    second: {fileID: 2100000, guid: bfafbf706a6d95b41a022041afa62065, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Stone
-    second: {fileID: 2100000, guid: d28c60e6547e8134ab1defb6f583100d, type: 2}
+    second: {fileID: 2100000, guid: 3d701575b3004494cbd6261e1c373840, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Windows_01
-    second: {fileID: 2100000, guid: 3980e9a205f88f0438d55ef4e30d4ee5, type: 2}
+    second: {fileID: 2100000, guid: 82b2382ebc4bc5c40a0fc9d1d14a4934, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Windows_02
-    second: {fileID: 2100000, guid: 645a091c4b514a547af3807518ed2edc, type: 2}
+    second: {fileID: 2100000, guid: c7ad4caf1a985fa4590eef1a3885e61d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: white
-    second: {fileID: 2100000, guid: 1a4fbfcba28c21548b4f5c5edd65041c, type: 2}
+    second: {fileID: 2100000, guid: 108c608b7faaa0f4989625e58938849f, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -88,6 +88,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
@@ -112,6 +113,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:

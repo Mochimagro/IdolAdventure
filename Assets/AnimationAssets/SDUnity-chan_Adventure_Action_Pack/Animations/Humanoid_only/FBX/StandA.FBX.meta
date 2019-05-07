@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7ded2fc22987d2a488e0f9a2e59abea6
+guid: 8a85dc193e3920849818efa7d2bd641a
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -472,6 +472,7 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
@@ -496,6 +497,9 @@ ModelImporter:
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
   importAnimation: 1
   copyAvatar: 1
   humanDescription:
