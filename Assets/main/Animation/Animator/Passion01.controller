@@ -958,7 +958,7 @@ BlendTree:
   m_Name: Dash
   m_Childs:
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: dead2f7e34ff3ad49bd6b2332d87d714, type: 2}
+    m_Motion: {fileID: 7400002, guid: ab9f03fe61c1424489338086543ffe9c, type: 3}
     m_Threshold: -1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -966,7 +966,7 @@ BlendTree:
     m_DirectBlendParameter: Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 2363ea527f6011c4b900f0c893183f93, type: 2}
+    m_Motion: {fileID: 7400000, guid: bd92f91bc0f940f4bb858f083dcb315c, type: 2}
     m_Threshold: 0
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
@@ -974,7 +974,7 @@ BlendTree:
     m_DirectBlendParameter: Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 9c9ddf9c518b2a645ba3a06b68f939d3, type: 2}
+    m_Motion: {fileID: 7400000, guid: dfb694ed0652ac14d9e146afc92a8130, type: 2}
     m_Threshold: 1
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
